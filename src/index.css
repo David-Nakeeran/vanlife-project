@@ -64,7 +64,9 @@ header a:hover {
 
 /*** HOME PAGE ***/
 .home-container {
-  background: url("./assets/home-hero.png") no-repeat center center;
+  background-image: url("./public/assets/home-hero.png");
+  background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
   min-height: 350px;
   color: white;
